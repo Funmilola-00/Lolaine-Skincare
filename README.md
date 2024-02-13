@@ -1,6 +1,6 @@
 ## Welcome to Lolaine Skincare: Unveil Your Radiance, Embrace Skincare That Nurtures | Lolaine Skincare" - WEBSITE
 
-## Live version Here https://lolaine-skincare.vercel.app/
+## Live version Here 
 
 This is an introduction to Lolaine Skincare made by Funmilola Josephine Oyeyipo, an aspiring Software Engineer in Lagos, Nigeria.
 
