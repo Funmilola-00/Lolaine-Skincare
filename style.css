@@ -1,0 +1,668 @@
+.body {
+    color: rgb(137, 89, 1);
+    background-color: rgba(255, 248, 240, 0.877);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .body {
+      background-color: rgba(255, 248, 240, 0.877);
+    }
+  }
+  
+  .division-1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 20;
+  }
+  
+  .brandname {
+    text-align: left;
+    padding-right: 500px;
+    font-size: 1rem;
+    margin-top: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .home {
+    color: rgb(137, 89, 1);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  ul li a {
+    padding: 0 10;
+    color: rgb(137, 89, 1);
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  p{
+    text-align: justify;
+  }
+  
+  .currency {
+    border-style: solid;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-color: rgb(137, 89, 1);
+    color: rgb(137, 89, 1);
+    border-width: 1px;
+    border-radius: 50px;
+    background-color: rgba(255, 248, 240, 0.877);
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+  
+  .languages {
+    border-style: solid;
+    cursor: pointer;
+    border-color: rgb(137, 89, 1);
+    color: rgb(137, 89, 1);
+    border-width: 1px;
+    border-radius: 50px;
+    font-size: 0.6rem;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgba(255, 248, 240, 0.877);
+  }
+  
+  .line-1 {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .line--1 {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* .main {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    justify-content: center;
+    background-image: url(skincare.jpg);
+    width: 50%;
+  } */
+  
+  .division-left {
+    width: 40%;
+    height: 520px;
+    margin-top: 40px;
+    padding-right: 120px;
+    background-color: rgba(234, 220, 202, 0.9);
+    justify-items: left;
+  }
+  
+  .set-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .logo {
+    color: rgb(137, 89, 1);
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 100%;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 5rem;
+  }
+  
+  #Welcome-note-1 {
+    color: rgb(137, 89, 1);
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 180px;
+    font-size: 1.5rem;
+  }
+  
+  .Welcome-note-2 {
+    font-size: 0.8rem;
+    margin-left: 230px;
+    /* color: rgb(253, 234, 234); */
+    color: rgb(137, 89, 1);
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  
+  .sentence-1 {
+    color: rgb(137, 89, 1);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    text-align-last: center;
+    padding-right: 0px;
+    line-height: 29px;
+    text-align: justify;
+  }
+  
+  .shop-now {
+    border-width: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10 40;
+    position: relative;
+    background-color: rgba(234, 220, 202, 0.834);
+    color: rgb(201, 151, 58);
+    margin: 20 0 0 250;
+    transition: 500ms;
+    /* top: 50%;
+    left: 50%; */
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    border-color: rgba(222, 171, 105, 0.834);
+  }
+  
+  .shop-mow:hover {
+    transform: scale(1.2);
+  }
+  
+  .division-3a {
+    border-style: none;
+    border-width: 1px;
+    filter: opacity(0.8rem);
+    width: 100%;
+    background-image: url(images/Untitled-3.jpg);
+    margin: 150 0;
+  }
+  
+  .heading-01 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    background-color: rgba(234, 220, 202, 0.834);
+    margin: 30 0 0 0;
+    padding: 50 0 0 0;
+  }
+  
+  .line-01 {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(234, 220, 202, 0.834);
+    margin-bottom: 10px;
+  }
+  
+  .skinn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .skin {
+    border-width: 8px;
+    cursor: text;
+    margin: 30 0;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    padding: 10 50;
+    background-color: rgb(234, 220, 202);
+    color: rgb(137, 89, 1);
+  }
+  
+  .quiz {
+    border-width: 8px;
+    cursor: pointer;
+    margin: 10 0;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    padding: 10 50 10 50;
+    background-color: rgb(234, 220, 202);
+    color: rgb(137, 89, 1);
+    border-color: rgba(180, 128, 61, 0.834);
+  }
+  
+  .division-3 {
+    background-color: rgba(234, 220, 202, 0.834);
+    border-style: none;
+    border-width: 1px;
+    margin: 140 0;
+  }
+  
+  .heading-1 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 50px;
+  }
+  
+  .line-2 {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .list-set-1 {
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: rgba(226, 205, 178, 0.834);
+    border-radius: 30px;
+    display: flex;
+    background-image: url(images/Untitled-2.jpg);
+    flex-wrap: wrap;
+    padding: 20 0 40 0;
+    align-items: center;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+  .checked {
+    color: rgb(231, 150, 0);
+  }
+  
+  .image-set-1 {
+    margin-top: 10px;
+    background-color: rgba(234, 220, 202, 0.834);
+    justify-content: space-around;
+    border-radius: 30px;
+    flex-grow: 1;
+    flex-basis: 200;
+    transition: 900ms;
+    margin: 10 20 0;
+    object-fit: cover;
+    padding: 20px;
+    cursor: pointer;
+    border-style: none;
+  }
+  
+  .image-set-2 {
+    margin-top: 10px;
+    background-color: rgba(208, 184, 152, 0.834);
+    justify-content: space-around;
+    border-radius: 30px;
+    flex-grow: 1;
+    flex-basis: 200;
+    transition: 900ms;
+    margin: 10 20 0;
+    object-fit: cover;
+    padding: 20px;
+    cursor: pointer;
+    border-style: none;
+  }
+  
+  .image-set-1:hover {
+    transform: scale(1.2);
+  }
+  
+  .image-set-2:hover {
+    transform: scale(1.2);
+  }
+  
+  .productname {
+    font-size: 28px;
+    padding: 15 0 0 75;
+  }
+  
+  .fa-star {
+    padding: 5 0 0 5;
+    margin-left: 9px;
+    position: static;
+    top: 50%;
+    left: 30%;
+  }
+  
+  .rate {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 5 0 0 85;
+    position: static;
+    top: 50%;
+    left: 5%;
+  }
+  
+  .see-more-products {
+    align-content: center;
+    background-image: url(images/skincare2.jpg);
+    border-width: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    padding: 10 50;
+    background-color: rgba(234, 220, 202, 0.834);
+    color: rgb(201, 151, 58);
+    margin: 50 0 20 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-color: rgba(222, 171, 105, 0.834);
+  }
+  
+  .division-4 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  
+  .heading-2 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+  
+  .line-3 {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .set-8 {
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 10px;
+    justify-content: space-around;
+  }
+  
+  .qoute {
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: serif;
+  }
+  
+  .List-1 {
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(253, 251, 248, 0.877);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 10 0 20;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(216, 216, 216);
+  }
+  
+  .WA {
+    margin-top: 20px;
+    border-radius: 120px;
+    padding-top: 10px;
+    border-width: 9px;
+    background-color: beige;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(243, 188, 211);
+    color: white;
+    background-color: rgb(137, 89, 1);
+  }
+  
+  .line {
+    color: rgb(214, 214, 214);
+  }
+  
+  .sentence-6 {
+    color: rgb(137, 89, 1);
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .main-1 {
+    display: flex;
+    background-color: rgba(246, 232, 213, 0.834);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-left-1 {
+    margin-top: 50px;
+    justify-content: left;
+    margin-right: 80px;
+    margin-bottom: 100px;
+  }
+  
+  .heading-3 {
+    text-align: center;
+    background-color: rgba(246, 232, 213, 0.834);
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+  
+  .line-4 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(246, 232, 213, 0.834);
+  }
+  
+  .skintype {
+    background-color: rgba(232, 217, 195, 0.834);
+    color: rgb(137, 89, 1);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active,
+  .skintype:hover {
+    background-color: rgba(222, 185, 136, 0.834);
+  }
+  
+  .panel {
+    font-size: 17px;
+    padding: 20 0;
+    display: none;
+    background-color: rgba(244, 218, 183, 0.834);
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .content-right-1 {
+    justify-items: right;
+    border-width: 1px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  
+  .main-2 {
+    display: flex;
+    background-color: rgba(246, 232, 213, 0.834);
+    align-items: center;
+    margin-top: 150px;
+    justify-content: center;
+  }
+  
+  .content-left-2 {
+    margin-top: 0px;
+    justify-content: left;
+    margin-right: 70px;
+    margin-bottom: 0px;
+  }
+  
+  .heading-3 {
+    text-align: center;
+    background-color: rgba(246, 232, 213, 0.834);
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+  
+  .line-4 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(246, 232, 213, 0.834);
+  }
+  
+  .content-right-2 {
+    justify-items: right;
+    border-width: 1px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  
+  .division-6 {
+    margin-top: 150px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    /* -webkit-box-reflect: below; */
+    justify-content: center;
+    background-color: rgba(246, 232, 213, 0.834);
+  }
+  
+  .heading-4 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+  
+  .otherbrands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .otherb {
+    margin: 10 0 50;
+    background-color: rgba(234, 220, 202, 0.834);
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-style: none;
+  }
+  
+  .list-set-2 {
+    margin-top: 150px;
+    padding-bottom: 0px;
+    background-color: rgba(246, 232, 213, 0.834);
+    justify-content: space-around;
+    margin-bottom: 0px;
+    color: rgb(137, 89, 1);
+  }
+  
+  .list-set-3 {
+    color: rgb(137, 89, 1);
+    justify-content: space-between;
+    padding: 70 80 0 70;
+    margin-left: 0px;
+    font-family: sans-serif;
+  }
+  
+  .location {
+    color: rgb(137, 89, 1);
+    font-size: 13px;
+    padding-left: 0px;
+    margin-left: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .p-2 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+  }
+  
+  .p-3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+  }
+  
+  .p-4 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    margin: 20 0 20 0;
+  }
+
+  .p-5 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 90px;
+    font-size: 0.7rem;
+  }
+  
+  .sign-up {
+    border-width: 8px;
+    cursor: pointer;
+    margin: 10 0;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    padding: 10 50;
+    background-color: rgb(214, 192, 164);
+    color: rgb(137, 89, 1);
+    border-color: rgba(180, 128, 61, 0.834);
+  }
+  
+  .list-set-4 {
+    color: rgb(137, 89, 1);
+    justify-content: space-between;
+    margin: 0 500 40 500;
+    font-family: sans-serif;
+  }
+  
+  .Inc {
+    margin-top: 30px;
+    color: rgb(137, 89, 1);
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 199;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(137, 89, 1);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color:rgb(79, 56, 12);
+  }

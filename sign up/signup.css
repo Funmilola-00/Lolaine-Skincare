@@ -1,0 +1,83 @@
+body {
+    background-color: #e7d9d9;
+    color: rgb(137, 89, 1);
+  }
+  
+  h1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  form {
+    background-color: #c1b2b2;
+    padding: 30px 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: 100px rgb(97, 53, 53);
+    width: 90%;
+    margin: 40px;
+  }
+  
+  .customerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left {
+    justify-items: left;
+    align-items: center;
+    text-align: left;
+    margin-right: 40px;
+  }
+  
+  .right {
+    justify-items: right;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+  }
+  
+  input {
+    border-style: solid;
+    cursor: pointer;
+    padding: 10px;
+    border-color: rgb(137, 89, 1);
+    color: rgb(137, 89, 1);
+    border-width: 1px;
+    border-radius: 50px;
+    background-color: rgba(255, 248, 240, 0.877);
+    font-size: 12px;
+    width: 170%;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px;
+    border-width: 6px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #633232;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #362020;
+    color: #ffffff;
+  }
+  
+  #container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Cambria;
+    border-radius: 10px;
+    color: #633232;
+    background-color: rgba(255, 248, 240, 0.877);
+    padding: 60px;
+  }
+  

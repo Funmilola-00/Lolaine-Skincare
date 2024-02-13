@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us | Lolaine Skincare" </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lolaine Skincare offers a complete line of products with carefully selected materials that help Unlock Your Skin's Potential with Care That Radiates Beauty.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome, please fill in your details below!</h1>
+      <form class="customerForm" id="customerForm">
+        <div class="left">
+          <div class="customer-details">
+            <label for="firstName">Full Name: </label>
+            <input type="text" name="fullName" class="contactInput-1" id="fullName" required />
+          </div>
+          <div class="customer-details">
+            <label for="number">Phone Number: </label>
+            <input type="tel" name="phone" class="contactInput-1" id="phone" required />
+          </div>
+          <div class="customer-details">
+            <label for="email">Email: </label>
+            <input type="email" name="email" class="contactInput-1" id="email" required />
+          </div>
+          <div class="customer-details ">
+            <textarea
+            name="message"
+            placeholder="Enter Message"
+            id="message"
+            class="contactInput-2"
+            cols="30"
+            rows="6"
+          ></textarea>
+          </div>
+          <div class="customer-details">
+            <button type="button" onclick="submitForm()">Submit Form</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="response" id="container2" style="display: none"></div>
+        </div>
+      </form>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>
