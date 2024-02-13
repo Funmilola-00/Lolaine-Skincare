@@ -1,4 +1,4 @@
-## Welcome to Lolaine Skincare: Unveil Your Radiance, Embrace Skincare That Nurtures | Lolaine Skincare" - WEBSITE
+## Welcome to Lolaine Skincare: Unveil Your Radiance | Lolaine Skincare - WEBSITE
 
 ## Live version Here https://lolaine-skincare.vercel.app/
 
